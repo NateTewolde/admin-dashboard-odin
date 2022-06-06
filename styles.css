@@ -24,16 +24,18 @@
   background-color: rgb(25, 146, 212);
   color: white;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   padding: 24px;
   display: grid;
+  grid-template-rows: repeat(3, max-content);
+  gap: 5%;
 }
 
 .sidebar ul {
   list-style-type: none;
-}
-
-.sidebar li {
+  display: grid;
+  grid-auto-rows: max-content;
+  gap: 15px;
 }
 
 .main-content {
