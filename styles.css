@@ -154,10 +154,17 @@ input {
   grid-template-rows: 1fr max-content;
 }
 
-.proj-desc p {
+.projects-section .proj-desc p {
   color: #757575;
   font-size: 0.85rem;
   font-weight: 400;
+}
+
+.projects-section .project-logos {
+  justify-self: end;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 16px;
 }
 
 .announcements-section {
